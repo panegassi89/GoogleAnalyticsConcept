@@ -1,0 +1,8 @@
+create table hits(
+	id int(6) not null primary key auto_increment,
+	username varchar(110) not null,
+	user int(6) not null,
+	session int(6) not null,
+	pageviews int(6) not null,
+	data datetime not null
+);
